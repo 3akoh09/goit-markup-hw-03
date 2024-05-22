@@ -183,7 +183,8 @@ img {
     font-size: 36px;
     margin-bottom: 40px;
     margin-bottom: 72px;
-    border-radius: 0px 0px 4px 4px; 
+    
+   
 }
 
 .main-team-list {
@@ -215,6 +216,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-top: 16px;
+    margin-bottom: 8px
 }
 
 .main-team-text {
