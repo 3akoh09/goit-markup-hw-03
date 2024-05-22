@@ -183,16 +183,7 @@ color: #2e2f42;
     color: #434455;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
+
 
 .main-team {
     background-color: #f4f4fd;
