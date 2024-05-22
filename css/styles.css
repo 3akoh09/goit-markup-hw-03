@@ -1,0 +1,205 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455; 
+    background: #fff;
+}
+
+
+.header-nav-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.header-nav-color{
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+}
+.header-nav-list .header-nav-link {
+    font: 500 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #2e2f42;
+    
+}
+.header-nav-list .header-nav-link:hover, .header-nav-list .header-nav-link:focus {
+    color: #404bbf;
+
+}
+.header-nav-list .header-nav-link:active {
+    color: #404bbf;
+}
+.main-hero .main-hero-btn {
+   color: #fff;
+   
+background: #4d5ae5;
+}
+
+.main-hero .main-hero-btn:hover, .main-hero .main-hero-btn:focus {
+    color: #fff;
+   
+    background: #404bbf;
+
+}
+.header-contact-list .header-nav-link {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}
+.header-contact-list .header-nav-link {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}   
+.header-contact-list .header-nav-link:hover,
+.header-contact-list .header-nav-link:focus {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+
+}    
+.header-contact-list .header-nav-link:hover,
+.header-contact-list .header-nav-linkk:focus {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+.header-contacts-adress {
+    font-style: normal;
+}
+.footer .footer-link {
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+line-height: 1.17;
+    
+}
+.footer .footer-link-color {
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:   #f4f4fd;
+}
+footer .footer-link:hover {
+    color: #404bbf
+}
+.main-hero-title {
+    font-family: "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+line-height: 1.07;
+font-size: 56px;
+}
+.main-hero-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    font-size: 16px
+    
+}
+.main-feature-title {
+    font: 500 20px / 1.2 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.main-feature-text {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.main-team {
+    background-color: #F4F4FD;
+}
+
+.main-team-title {
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+line-height: 1.11;
+text-transform: capitalize;
+font-weight: 500;
+font-size: 36px;
+}
+.main-team-item {
+    background-color: #FFFFFF;
+}
+
+
+.main-team-subtitle {
+text-align: center;
+color: #2e2f42;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+}
+.main-team-list {
+    background-color: #FFFFFF;
+}
+
+.main-team-text {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+.main-portfolio-title {
+    font: 700 36px / 1.11111 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+line-height: 1.11;
+text-transform: capitalize;
+
+}
+.main-portfolio-subtitle {
+    font: 500 20px / 1.2 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #2e2f42;
+
+}
+.main-portfolio-text {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+.footer-text {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
+.main-team-img{
+
+background: #fff;
+}
+ul {
+    list-style-type: none;
+}
+.main-team-list {
+    background: #f4f4fd
+}
+.header-nav {
+    background: #fff;
+}
+.main-hero {
+    background: #2e2f42;
+}
+.footer {
+    background: #2e2f42;
+}
+a {
+    text-decoration: none;
+}
