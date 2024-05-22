@@ -224,7 +224,16 @@ color: #434455;
 .main-portfolio-item {
     border-bottom: 1px solid #ccc; /* Колір і товщина рамки повинні відповідати макету */
     margin-bottom: 20px;
-
+    position: relative; 
+}
+.main-portfolio-item::after {
+    content: ''; /* Додаємо псевдоелемент */
+    position: absolute; /* Робимо позиціонування абсолютним */
+    bottom: 0; /* Встановлюємо відстань від нижнього краю блоку */
+    left: 0; /* Встановлюємо відстань від лівого краю блоку */
+    width: 100%; /* Займає всю ширину блоку */
+    height: 1px; /* Товщина рамки */
+    background-color: #ccc; /* Колір рамки */
 }
 
 .footer-text {
@@ -283,3 +292,4 @@ img {
     padding-top: 120px; /* B15: Верхні та нижні падінги по 120px */
     padding-bottom: 120px;
 }
+
