@@ -31,7 +31,7 @@ img {
 .header {
     background: #2e2f42;
     padding: 20px 0;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -47,23 +47,36 @@ img {
 
 .header-nav-link {
     font-family: "Raleway", sans-serif;
-    color: #fff;
+    color: #4d5ae5;
     text-decoration: none;
     font-size: 24px;
     margin-right: 40px;
     margin-right: 76px;
     padding: 24px 0;
+    
 }
 
 .header-nav-color {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .header-nav-list {
     display: flex;
     gap: 40px; /* Відступи між пунктами меню */
     align-items: center;
+    letter-spacing: 0.02em;
+color: #2e2f42;
 }
+
+
+.header-nav-list .header-nav-link:hover, .header-nav-list .header-nav-link:focus {
+    color: #404bbf;
+
+}
+.header-nav-list .header-nav-link:active {
+    color: #404bbf;
+}
+
 
 .header-nav-item {
     list-style: none;
@@ -92,6 +105,19 @@ img {
     margin-right: 0;
 }
 
+.header-contact-list .header-nav-link:hover,
+.header-contact-list .header-nav-link:focus {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+
+}    
+
+
+
+.header-contacts-adress {
+    font-style: normal;
+}
 .main-hero {
     background: #2e2f42;
     text-align: center;
@@ -314,3 +340,20 @@ img {
     margin-top: 16px;
 }
 
+.footer .footer-link {
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+line-height: 1.17;
+    
+}
+.footer .footer-link-color {
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:   #f4f4fd;
+}
+footer .footer-link:hover {
+    color: #404bbf
+}
