@@ -31,6 +31,7 @@ img {
 .header {
     background: #2e2f42;
     padding: 20px 0;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-container {
@@ -50,6 +51,8 @@ img {
     text-decoration: none;
     font-size: 24px;
     margin-right: 40px;
+    margin-right: 76px;
+    padding: 24px 0;
 }
 
 .header-nav-color {
@@ -99,20 +102,20 @@ img {
 }
 
 .main-hero-btn {
-    display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    background: #4d5ae5;
-    padding: 24px 0;
-    width: 200px;
-    margin: 0 auto;
     cursor: pointer;
+    background-color: #4d5ae5;
+    color: #fff;
     border: none;
-    text-transform: uppercase;
+    outline: none;
+    padding: 0 24px;
+    min-width: 169px; /* Мінімальна ширина кнопки */
+    height: 56px; /* Висота кнопки */
+    border-radius: 4px; /* Заокруглення кнопки */
 }
 
 .main-hero-btn:hover, .main-hero-btn:focus {
