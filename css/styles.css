@@ -29,47 +29,63 @@ img {
 }
 
 .header {
-    background: #2e2f42;
+    background: #fff;
     padding: 20px 0;
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+gap: 0px;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
+    
+}
+
+.header-nav-logo {
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+.header-nav-logo-color {
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+margin-right: 76px;
 }
 
 .header-nav-link {
     font-family: "Raleway", sans-serif;
-    color: #4d5ae5;
+    color: #2e2f42;
     text-decoration: none;
     font-size: 24px;
-    margin-right: 40px;
-    margin-right: 76px;
     padding: 24px 0;
-    
+ 
 }
 
-.header-nav-color {
-    color: #2e2f42;
-}
+
+
+
 
 .header-nav-list {
     display: flex;
-    gap: 40px; /* Відступи між пунктами меню */
+    gap: 40px; 
     align-items: center;
     letter-spacing: 0.02em;
 color: #2e2f42;
+
 }
 
 
-.header-nav-list .header-nav-link:hover, .header-nav-list .header-nav-link:focus {
+.header-nav-list .header-nav-link .header-nav-logo-color:hover, .header-nav-list .header-nav-logo-color .header-nav-link:focus {
     color: #404bbf;
 
 }
@@ -183,7 +199,14 @@ color: #2e2f42;
     color: #434455;
 }
 
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    border: 0;
+}
 
 .main-team {
     background-color: #f4f4fd;
@@ -347,4 +370,7 @@ line-height: 1.17;
 }
 footer .footer-link:hover {
     color: #404bbf
+}
+a {
+    text-decoration: none;
 }
