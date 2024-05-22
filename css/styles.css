@@ -157,6 +157,17 @@ img {
     color: #434455;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 .main-team {
     background-color: #f4f4fd;
     padding: 120px 0;
@@ -277,7 +288,6 @@ img {
 }
 .footer {
     background: #2e2f42;
-    padding: 40px 0;
     text-align: center;
     padding-top: 100px;
 }
@@ -301,13 +311,3 @@ img {
     margin-top: 16px;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
