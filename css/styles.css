@@ -61,10 +61,17 @@ img {
 
 .header-nav-list {
     display: flex;
+    gap: 40px; /* Відступи між пунктами меню */
+    align-items: center;
 }
 
 .header-nav-item {
     list-style: none;
+    margin-right: 40px;
+}
+
+.header-nav-item:last-child {
+    margin-right: 0; 
 }
 
 .header-contacts-adress {
@@ -116,6 +123,8 @@ img {
     min-width: 169px; /* Мінімальна ширина кнопки */
     height: 56px; /* Висота кнопки */
     border-radius: 4px; /* Заокруглення кнопки */
+    display: block; /* Робимо кнопку блочним елементом */
+    margin: 0 auto;
 }
 
 .main-hero-btn:hover, .main-hero-btn:focus {
@@ -162,6 +171,7 @@ img {
     font-weight: 500;
     font-size: 36px;
     margin-bottom: 40px;
+    margin-bottom: 72px;
 }
 
 .main-team-list {
@@ -219,6 +229,7 @@ img {
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
+    row-gap: 48px;
 }
 
 .main-portfolio-item {
@@ -250,6 +261,7 @@ img {
     font-size: 20px;
     color: #2e2f42;
     margin-top: 16px;
+    margin-bottom: 8px
 }
 
 .main-portfolio-text {
@@ -257,11 +269,17 @@ img {
     color: #434455;
     margin-top: 8px;
 }
+.app-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
 
+}
 .footer {
     background: #2e2f42;
     padding: 40px 0;
     text-align: center;
+    padding-top: 100px;
 }
 
 .footer-link {
@@ -269,6 +287,8 @@ img {
     color: #fff;
     text-decoration: none;
     font-size: 24px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-link span {
@@ -281,7 +301,7 @@ img {
     margin-top: 16px;
 }
 
-.sr-only {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
