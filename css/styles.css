@@ -11,7 +11,6 @@ body {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
 }
 .header-nav-color{
@@ -202,4 +201,26 @@ ul {
 }
 a {
     text-decoration: none;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px; /* Заміни на потрібне значення з макету */
+    padding-left: 15px; /* Заміни на потрібне значення з макету */
+    padding-right: 15px; /* Заміни на потрібне значення з макету */
+    margin-left: auto;
+    margin-right: auto;
 }
