@@ -10,6 +10,13 @@ body {
   .header {
     border-bottom: 1px solid #e7e9fc;
   }
+
+  .header-nav-list .header-nav-item {
+    margin-right: 40px;
+}
+.header-nav-list .header-nav-item:last-child {
+    margin-right: 0;
+}
 .header-nav-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -23,6 +30,7 @@ align-items: center;
 justify-content: flex-start;
 flex-direction: row;
 gap: 0px;
+padding: 24px 0;
     
 }
 .header-nav-color{
@@ -92,13 +100,13 @@ background: #4d5ae5;
     font: 400 16px / 1.5 "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #434455;
-    
+    margin-right: 40px;
 }
 .header-contact-list .header-nav-link {
     font: 400 16px / 1.5 "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #434455;
-    
+    margin-right: 0;
 }   
 .header-contact-list .header-nav-link:hover,
 .header-contact-list .header-nav-link:focus {
@@ -134,6 +142,9 @@ line-height: 1.17;
 footer .footer-link:hover {
     color: #404bbf
 }
+.main-hero {
+    padding: 188px 0;
+}
 .main-hero-title {
     font-family: "Roboto", sans-serif;
 letter-spacing: 0.02em;
@@ -141,6 +152,7 @@ text-align: center;
 color: #fff;
 line-height: 1.07;
 font-size: 56px;
+max-width: 496px;
 }
 .main-hero-btn {
     font-family: "Roboto", sans-serif;
@@ -149,8 +161,13 @@ font-size: 56px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    font-size: 16px
-    
+    font-size: 16px;
+    display: block; /* Зробити кнопку блочним елементом */
+    margin: 0 auto; 
+    min-width: 169px;
+    height: 56px; 
+    border: none;
+    border-radius: 4px;
 }
 .main-feature-title {
     font: 500 20px / 1.2 "Roboto", sans-serif;
